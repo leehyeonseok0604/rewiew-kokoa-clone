@@ -1,0 +1,92 @@
+body {
+  background-color: aliceblue;
+}
+/*-----------statusbar. css line--------------*/
+.statusbar {
+  display: flex;
+  justify-content: center;
+}
+.statusbar__column {
+  width: 33%;
+}
+.statusbar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.statusbar__column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.fas {
+  margin: 0px 3px;
+}
+/*-----------statusbar. css line--------------*/
+
+/*-----------welcome header. css line---------*/
+.welcome-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.welcome-header__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__text p {
+  opacity: 0.5;
+  margin: 0px;
+}
+/*-----------welcome header. css line---------*/
+/*----------form input css line--------------*/
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 20px 0px 20px;
+}
+.inputer:focus {
+  outline: none;
+}
+.ep {
+  background-color: inherit;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid rgba(46, 44, 44, 0.3);
+  transition: border-color 0.3s ease-in-out;
+}
+.ep::placeholder {
+  opacity: 0.7;
+}
+.ep:focus {
+  border-color: brown;
+}
+.submiter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.submit {
+  background-color: lightslategrey;
+  border-radius: 5px;
+  margin: 0px 20px;
+  padding: 15px;
+  border: none;
+}
+.submit:nth-child(2) {
+  margin-top: 10px;
+}
+
+/*-----------welcome header. css line---------*/
+/*--link account or passs word html line--*/
+
+/*--link account or passs word html line--*/
+a {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 200px;
+  color: black;
+  text-decoration: none;
+}
+/*--link account or passs word html line--*/

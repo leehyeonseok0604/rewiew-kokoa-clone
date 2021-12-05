@@ -1,0 +1,19 @@
+.statusbar {
+  display: flex;
+  justify-content: center;
+}
+.statusbar__column {
+  width: 33%;
+}
+.statusbar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.statusbar__column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.fas {
+  margin: 0px 3px;
+}
